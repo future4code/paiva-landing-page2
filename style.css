@@ -1,0 +1,17 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(194, 57, 73);
+    color:white;
+    height: 15vh;
+}
+
+#logo{
+    width: 10vh;
+}
+.conteudo
