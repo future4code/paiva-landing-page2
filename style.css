@@ -6,7 +6,8 @@ body {
     display:grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 15vh 1fr 20vh;
-    
+    background-color: black;
+    color:white;
 }
 
 header{
@@ -30,7 +31,7 @@ header{
     color:rgb(194, 57, 73);
     background-color: seashell;
     font-size: 0.75em;
-  margin: 0.25em;
+    margin: 0.25em;
 }
 .logo{
     display: flex;
@@ -50,21 +51,25 @@ header{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4,1fr);
 }
-.slogan{
-    width: 60vh;
+#log4{
+    width: 50vh;
     margin: 1em;
 }
 .pesquisar-produto{
     grid-row: 1/2;
+    background-color: white;
     }
 .secoes{
     grid-row: 2/span1;
+    background-color: white;
 }
 .empresa{
     grid-row: 3/span1;
+    background-color: white;
 }
 .entrega{
     grid-row: 4/span1;
+    background-color: white;
 }
 footer{
     background-color: rgb(194, 57, 73);
