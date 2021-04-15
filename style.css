@@ -3,15 +3,82 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 15vh 1fr 20vh;
+    
 }
 
 header{
     background-color: rgb(194, 57, 73);
     color:white;
-    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row;
+    padding: 0.5em;
+    font-size: 1.5em;
+    /* position: fixed; */
+    /* top:0;
+    left: 0;
+    width: 100%;
+    min-height: 15vh; */
+ 
+}
+.botao{
+    color:rgb(194, 57, 73);
+    background-color: seashell;
+    font-size: 0.75em;
+  margin: 0.25em;
+}
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nome{
+    font-size: 30px;
+    margin: 2vh;
 }
 
-#logo{
+#logoimg{
     width: 10vh;
+  
 }
-.conteudo
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+.slogan{
+    width: 60vh;
+    margin: 1em;
+}
+.pesquisar-produto{
+    grid-row: 1/2;
+    }
+.secoes{
+    grid-row: 2/span1;
+}
+.empresa{
+    grid-row: 3/span1;
+}
+.entrega{
+    grid-row: 4/span1;
+}
+footer{
+    background-color: rgb(194, 57, 73);
+    color:white;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    width: 100%;
+
+}
+#facebook, #instagram{
+    width: 8vh;
+}
+.endereço{
+    font-size: 1em;
+}
