@@ -3,15 +3,53 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 15vh 1fr 25vh;
+    
 }
 
 header{
     background-color: rgb(194, 57, 73);
     color:white;
-    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    
 }
 
 #logo{
     width: 10vh;
 }
-.conteudo
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.pesquisar-produto{
+    grid-row: 1/2;
+    }
+.secoes{
+    grid-row: 2/span1;
+}
+.empresa{
+    grid-row: 3/span1;
+}
+.entrega{
+    grid-row: 4/span1;
+}
+footer{
+    background-color: rgb(194, 57, 73);
+    color:white;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#facebook, #instagram{
+    width: 8vh;
+}
+.endereço{
+    font-size: 1em;
+}
