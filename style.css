@@ -5,13 +5,25 @@ body {
     margin: 0;
     display:grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 7vh 1fr 5vh;
-    background-color: white
+    grid-template-rows: 8vh 1fr 5vh;
+    background-color:white;
     color:black;
+    font-family: 'Commissioner', sans-serif;
 }
-a {
-    color: rgb(194, 57, 73);
+.pags {
+    color:rgb(194, 57, 73);
     text-decoration: none;
+    border-radius: 0.3em;
+    padding: 0.2em 0.5em;
+}
+.pags:hover{
+    background-color:rgb(194, 57, 73);
+    color: white;
+}
+.botao:hover{
+    background-color: white;
+    color: rgb(194, 57, 73);
+    border:0.1em solid rgb(194, 57, 73);
 }
 header{
     background-color: white
@@ -24,6 +36,9 @@ header{
     padding: 0.10em;
     font-size: 1.2rem;
     border-bottom: 0.02em solid black;
+    padding: 3vh 0 3vh 3vh;
+    /* margin-top:0.9em; */
+    
     /* position: fixed;
     top: 0%;
     width: 100%;
@@ -38,7 +53,7 @@ header{
 }
 .botao{
     background-color:rgb(194, 57, 73);
-    color: seashell;
+    color: black;
     font-size: 1.2rem;
     padding: 0.35em;
     margin: 0.25em;
@@ -47,22 +62,26 @@ header{
 .logo{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 .nome{
-    font-size: 30px;
-    margin: 3vh;
+    font-size: 0.8em;
+    margin: 3vh 1vh;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+    color: rgb(194, 57, 73);;
 }
 
-#logoimg{
+/* #logoimg{
     width: 7vh;
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 3vh 0;
-    
-  
-}
+} */
 .conteudo{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -93,6 +112,15 @@ header{
 #lupa{
     width: 2em;
 }
+#logosmall{
+    border-radius: 0.2em;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 3vh 0 3vh;
+}
+
 #buscador{
     height: 1.3em;
     width: 30em;
@@ -162,9 +190,18 @@ header{
     align-items: center;
    
 }
+.pags2{
+     text-decoration: none;
+}
+.pags2:hover{
+    color:rgb(194, 57, 73);
+   
+    border-radius: 0.3em;
+    padding: 0.2em 0.5em;
+}
 footer{   
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 15% 10% 10% 15% 15% 15% 20%;
     grid-template-rows: 1fr;
     background-color: white
     color: rgb(194, 57, 73);
@@ -172,23 +209,32 @@ footer{
     /* position:absolute; */
     width: 100%;
     border-top: 0.02em solid rgb(194, 57, 73);
+    padding: 0 0 3vh 3vh;
+    font-size: 0.8em;
     
-
 }
+
 #facebook, #instagram{
-    width: 8vh;
+    width: 5vh;
     margin: 0.2em;
 }
-    
-.redes-sociais{
+.logosmall{
+    grid-column: 1/2;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+}    
+.redes-sociais{
+    grid-column: 2/3 ;
+    display: flex;
+    justify-content:center;
     align-items: center;
     flex-direction: row;
   
 }
 
+
 .endereço{
+    grid-column: 4/5;
     font-size: 0.5em;
     line-height: 0.01em;
     display: flex;
@@ -196,11 +242,16 @@ footer{
     align-items: center;
 }
 .faleconosco{
-    grid-column: 3;
+    grid-column: 5/6;
+    padding-top: 1em;
+   
+}
+.info{
+    grid-column: 6/7;
     padding-top: 1em;
 }
 .formasDePagamento{
     padding-top: 1em;
-    grid-column: 4;
+    grid-column: 7/8;
     text-align:start;
 }
