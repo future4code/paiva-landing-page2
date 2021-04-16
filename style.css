@@ -26,7 +26,7 @@ body {
     border:0.1em solid rgb(194, 57, 73);
 }
 header{
-    background-color: white
+    background-color: white;
     color:rgb(194, 57, 73);
     display: flex;
     /* flex-wrap: wrap; */
@@ -71,7 +71,7 @@ header{
     text-align: start;
     justify-content: start;
     align-items: center;
-    color: rgb(194, 57, 73);;
+    color: rgb(194, 57, 73);
 }
 
 /* #logoimg{
@@ -85,7 +85,6 @@ header{
 .conteudo{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     grid-template-rows: 8vh 30vh 50vh 70vh;
     justify-content: center;
     align-items: center;
@@ -169,14 +168,10 @@ header{
    
 }
 .empresa{
-
-    grid-row: 2/4;
-    grid-column: 1/2;
-    display: flex;
-    justify-content:flex-end
-    align-items: center;
-  
+    grid-row: 2/span1;
+    grid-column: 2;
 }
+
 .entrega{
     grid-row: 2/3;
     grid-column: 3/4;
@@ -190,7 +185,7 @@ header{
     grid-row: 3/4;
     grid-column: 3/4;
     display: flex;
-    justify-content:flex-start
+    justify-content:flex-start;
     align-items: center;
    
 }
@@ -207,7 +202,7 @@ footer{
     display: grid;
     grid-template-columns: 15% 10% 10% 15% 15% 15% 20%;
     grid-template-rows: 1fr;
-    background-color: white
+    background-color: white;
     color: rgb(194, 57, 73);
     bottom: 0;
     /* position:absolute; */
@@ -218,7 +213,7 @@ footer{
     
 }
 
-#facebook, #instagram{
+#facebook, #instagram, #twitter{
     width: 5vh;
     margin: 0.2em;
 }
