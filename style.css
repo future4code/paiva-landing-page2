@@ -37,18 +37,6 @@ header{
     font-size: 1.2rem;
     border-bottom: 0.02em solid black;
     padding: 3vh 0 3vh 3vh;
-    /* margin-top:0.9em; */
-    
-    /* position: fixed;
-    top: 0%;
-    width: 100%;
-    margin-bottom: 0.2em; */
-
-    /* position: fixed; */
-    /* top:0;
-    left: 0;
-    width: 100%;
-    min-height: 15vh; */
   
 }
 .botao{
@@ -168,8 +156,9 @@ header{
    
 }
 .empresa{
-    grid-row: 2/span1;
-    grid-column: 2;
+    grid-row: 2/4;
+    grid-column: 1/2;
+  
 }
 
 .entrega{
@@ -203,7 +192,6 @@ footer{
     grid-template-columns: 15% 10% 10% 15% 15% 15% 20%;
     grid-template-rows: 1fr;
     background-color: white;
-    color: rgb(194, 57, 73);
     bottom: 0;
     /* position:absolute; */
     width: 100%;
