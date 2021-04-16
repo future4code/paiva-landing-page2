@@ -5,12 +5,13 @@ body {
     margin: 0;
     display:grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 7vh 1fr 10vh;
+    grid-template-rows: 7vh 1fr 5vh;
     background-color: white
     color:black;
 }
 a {
-    color: rgb(194, 57, 73);;
+    color: rgb(194, 57, 73);
+    text-decoration: none;
 }
 header{
     background-color: white
@@ -36,10 +37,12 @@ header{
   
 }
 .botao{
-    color:rgb(194, 57, 73);
-    background-color: seashell;
+    background-color:rgb(194, 57, 73);
+    color: seashell;
     font-size: 1.2rem;
+    padding: 0.35em;
     margin: 0.25em;
+    border: none;
 }
 .logo{
     display: flex;
@@ -92,7 +95,7 @@ header{
 }
 #buscador{
     height: 1.3em;
-    width: 39em;
+    width: 30em;
     border:none;
     padding: 0.2em 10;
     border: .19em solid rgb(75, 30, 35);
@@ -184,6 +187,7 @@ footer{
     flex-direction: row;
   
 }
+
 .endereço{
     font-size: 0.5em;
     line-height: 0.01em;
@@ -193,7 +197,10 @@ footer{
 }
 .faleconosco{
     grid-column: 3;
+    padding-top: 1em;
 }
-.perguntas{
+.formasDePagamento{
+    padding-top: 1em;
     grid-column: 4;
+    text-align:start;
 }
