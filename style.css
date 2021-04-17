@@ -270,7 +270,7 @@ footer{
     header{
         display: flex;
         flex-direction:column;
-   
+        padding: 5em 0.03em;
         
         
     }
@@ -299,7 +299,7 @@ footer{
             
     }
     .cadastro{
-       
+        margin-top: 0.4em;
     }
     #logosmall{
         border-radius: 0.2em;
