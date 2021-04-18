@@ -1,6 +1,4 @@
-# landing-page-template
-Projeto Landing Page 
-Log4  
+# Projeto Landing Page : Log4 ENTREGAR SEM PARAR
 
 Grupo:
 Bruna Nunciato e João Pedro Gontijo.
