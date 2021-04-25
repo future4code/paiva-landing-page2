@@ -1,11 +1,11 @@
 # Projeto Landing Page : Log4 ENTREGAR SEM PARAR
 
-Grupo:
-Bruna Nunciato e João Pedro Gontijo.
 
-Utilizando HTML, CSS, Grid, Flexbox e Responsividade.
+Bruna Nunciato & João Pedro Gontijo.
 
-Surge: greedy-cork.surge.sh
+ HTML, CSS, Grid, Flexbox e Responsividade.
+
+http://greedy-cork.surge.sh
 
 ![image](https://user-images.githubusercontent.com/79425709/115156953-4b42be00-a05d-11eb-9c54-bdf5abdcb9f5.png)
 ![image](https://user-images.githubusercontent.com/79425709/115156984-64e40580-a05d-11eb-9d9b-a1da5978c344.png)
